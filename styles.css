@@ -1,0 +1,178 @@
+body{
+  background: hsl(27, 66%, 92%);
+  padding: 3rem 0 3rem 0;
+  display: grid;
+  grid-gap: 1rem;
+}
+.firstContainer{
+  display: flex;
+  background: hsl(10, 79%, 65%);
+  border-radius: 12px;
+  padding: 1rem;
+  justify-content: space-between;
+  line-height: 0.3;
+  color: white;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.statement{
+  margin-left: 1rem;
+}
+.logo{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.secondContainer{
+ background: hsl(33, 100%, 98%);
+ padding: 0.5rem;
+ font-family: 'DM Sans', sans-serif;
+ border-radius: 13px;
+ width: 90%;
+ background: hsl(33, 100%, 98%);
+ margin-left: auto;
+ margin-right: auto;
+}
+.spending{
+margin-left: auto;
+margin-right: auto;
+margin-top: 4rem;
+width: 100%;
+}
+.day{
+  display: inline-block;
+  width: 11%;
+  margin-left: 1%;
+  margin-right: 1%;
+  text-align: center;
+}
+.chartLine{
+  border-radius: 5px;
+  width: 80%;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chartLine1{
+  height: 40px;
+  background: hsl(10, 79%, 65%);
+}
+.chartLine2{
+  height: 80px;
+  background: hsl(10, 79%, 65%);
+}
+.chartLine3{
+  height: 120px;
+  background: hsl(186, 34%, 60%);
+}
+.chartLine4{
+  height: 70px;
+  background: hsl(10, 79%, 65%);
+}
+.chartLine5{
+  height: 50px;
+  background: hsl(10, 79%, 65%);
+}
+.chartLine6{
+  height: 100px;
+  background: hsl(10, 79%, 65%);
+}
+.chartLine7{
+  height: 60px;
+  background: hsl(10, 79%, 65%);
+}
+.chartLines{
+  opacity: 50%;
+}
+.total{
+  float: left;
+  line-height: 0.5;
+}
+.month{
+  float: right;
+  line-height: 0.5;
+  margin-top: 20px;
+}
+.month h4
+{
+  margin-left: 45px;
+}
+.secondContainer p{
+  color: hsl(28, 10%, 53%);
+  font-size: 13px;
+}
+.secondContainer h2,h4{
+  color: hsl(25, 47%, 15%);
+}
+.firstContainer p{
+  color: white;
+  font-size: 13px;
+}
+hr{
+  opacity: 20%;
+}
+.money1{
+  background: black;
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 9px;
+  padding: 1.5px 0px 1.5px 0px;
+}
+.money2{
+  background: black;
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 9px;
+  padding: 1.5px 0px 1.5px 0px;
+}
+.money3{
+  background: black;
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 9px;
+  padding: 1.5px 0px 1.5px 0px;
+}
+.money4{
+  background: black;
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 9px;
+  padding: 1.5px 0px 1.5px 0px;
+}
+.money5{
+  background: black;
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 9px;
+  padding: 1.5px 0px 1.5px 0px;
+}
+.money6{
+  background: black;
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 9px;
+  padding: 1.5px 0px 1.5px 0px;
+}
+.money7{
+  background: black;
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 9px;
+  padding: 1.5px 0px 1.5px 0px;
+}
+.hideMoney{
+  display: none;
+}
+@media (min-width:375px) {
+  .firstContainer{
+    width: 29%;
+  }
+  .secondContainer{
+    width: 30%;
+  }
+  body{
+    overflow: hidden;
+    width: 100vw;
+  }
+}

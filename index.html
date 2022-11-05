@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<body>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+<div class="firstContainer">
+  <div class="balance">
+    <p>My balance</p>
+    <h2>$921.48</h2>
+  </div>
+  <div class="logo">
+    <img src="images/logo.svg" alt="">
+  </div>
+</div>
+
+  <div class="secondContainer">
+    <h2 class="statement">Spending - Last 7 days</h2>
+
+    <div class="spending">
+      <div   class="day mon">
+        <div class="money1 hideMoney">
+         $52.36
+        </div>
+        <div onmouseover="myFunction1(this)" onmouseout="myFunction2(this)" class="chartLine chartLine1">
+
+        </div>
+        <p>mon</p>
+      </div>
+
+      <div class="day tue">
+        <div class="money2 hideMoney">
+         $52.36
+        </div>
+        <div  onmouseover="myFunction1(this)" onmouseout="myFunction2(this)"class="chartLine chartLine2">
+
+        </div>
+        <p>tue</p>
+      </div>
+
+      <div class="day wed">
+        <div class="money3 hideMoney">
+         $52.36
+        </div>
+        <div    onmouseover="myFunction1(this)" onmouseout="myFunction2(this)"class="chartLine chartLine3">
+
+        </div>
+        <p>wed</p>
+      </div>
+
+      <div class="day thu">
+        <div class="money4 hideMoney">
+         $52.36
+        </div>
+        <div    onmouseover="myFunction1(this)" onmouseout="myFunction2(this)" class="chartLine chartLine4">
+
+        </div>
+        <p>thu</p>
+      </div>
+
+      <div class="day fri">
+        <div  class="money5 hideMoney">
+         $52.36
+        </div>
+        <div    onmouseover="myFunction1(this)" onmouseout="myFunction2(this)" class="chartLine chartLine5">
+
+        </div>
+        <p>fri</p>
+      </div>
+
+      <div class="day sat">
+        <div class="money6 hideMoney">
+         $52.36
+        </div>
+        <div    onmouseover="myFunction1(this)" onmouseout="myFunction2(this)" class="chartLine chartLine6">
+
+        </div>
+        <p>sat</p>
+      </div>
+
+      <div class="day sun">
+        <div class="money7 hideMoney">
+         $52.36
+        </div>
+        <div    onmouseover="myFunction1(this)" onmouseout="myFunction2(this)" class="chartLine chartLine7">
+
+        </div>
+        <p>sun</p>
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div class="total">
+      <p>Total this month</p>
+      <h2>$478.33</h2>
+    </div>
+
+    <div class="month">
+      <h4>+2.4%</h4>
+      <p>from last month</p>
+    </div>
+
+
+  </div>
+<script src="chart.js" charset="utf-8"></script>
+</body>
+</html>
