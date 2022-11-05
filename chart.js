@@ -2,6 +2,7 @@
 function myFunction1(x) {
   x.classList.add("chartLines");
   const className = x.classList[1];
+  console.log(className);
   if(className === "chartLine1")
   {
     document.getElementsByClassName("money1")[0].classList.remove("hideMoney");
